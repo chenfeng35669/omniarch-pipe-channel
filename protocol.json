@@ -1,0 +1,23 @@
+{
+  "locked_before_inference": "2026-11-07",
+  "repository_commit": "5fba14f1ce93ec26d5c2b75b74ef17bf6c60dc02",
+  "checkpoint": "omniarch-base.pt, public v0.4, no fine-tuning",
+  "geometries": ["pipe", "channel"],
+  "grids": [64, 128, 256],
+  "history_frames": 10,
+  "forecast_steps": 20,
+  "dimensionless_dt": 0.01,
+  "transient_mode_amplitudes": [0.35, -0.10],
+  "tests": ["steady preservation with exact history", "analytic decaying perturbation forecast"],
+  "encoding": "unmodified public 1D scalar API, C=1, velocity in m/s, endpoints included; no geometry/forcing/BC tokens or output correction",
+  "timing_repeats": 7,
+  "warmups": 2,
+  "precision": "FD float64 and float32 CPU; OmniArch default CUDA bfloat16 autocast and CPU float32 diagnostic",
+  "physical_cases": [
+    {"id":"nominal", "rho":1000.0,"mu":0.001,"a":0.005,"Ub":0.01},
+    {"id":"small", "rho":1000.0,"mu":0.001,"a":0.0025,"Ub":0.02},
+    {"id":"viscous", "rho":1000.0,"mu":0.002,"a":0.005,"Ub":0.02},
+    {"id":"large", "rho":1000.0,"mu":0.001,"a":0.01,"Ub":0.02}
+  ],
+  "interpretation": "No superiority is assumed. Steady preservation is not a boundary-value solve. Parameter cases share normalized shapes and are not independent generalization evidence. Primary classical steady baseline solves the requested BVP; fair history forecasting comparison uses Crank-Nicolson and persistence with identical history."
+}
