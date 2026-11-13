@@ -8,6 +8,19 @@ weights/
 *.safetensors
 *.npz
 artifacts/
-results/
+/results/*
+!/results/native_posttraining/
+/results/native_posttraining/*
+!/results/native_posttraining/recommended.json
+!/results/native_posttraining/precision_and_time.csv
+!/results/native_posttraining/pipe_17_increment_rel_long.pt
+!/results/native_posttraining/channel_17_increment_rel_long.pt
+!/results/sampling_interval/
+/results/sampling_interval/*
+!/results/sampling_interval/test_metrics.csv
+!/results/sampling_interval/training_metrics.csv
+!/results/offline_augmentation_comparison.json
 checkpoints/
-specialization_20261107/cases.json
+# Local reading material, not needed to reproduce the code or results.
+/参考文献.zip
+/圆管槽道关系式.docx

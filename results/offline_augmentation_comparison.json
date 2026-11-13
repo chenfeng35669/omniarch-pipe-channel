@@ -1,0 +1,1088 @@
+{
+  "preparation_seconds": {
+    "pipe": 0.06481619999976829,
+    "channel": 0.05697650000001886
+  },
+  "rows": [
+    {
+      "geometry": "pipe",
+      "training_data": "original",
+      "seed": 17,
+      "selected_update": 160,
+      "training_seconds": 30.352227299999868,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.920758438311501,
+          "disturbance_pct": 48.343494202720564,
+          "seconds": 9.249858700000004,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.9037211999627512,
+          "disturbance_pct": 186.7481754097903,
+          "seconds": 9.420381299999917,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.8448728117216517,
+          "disturbance_pct": 44.375053146237256,
+          "seconds": 9.388163200000236,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "modes_only",
+      "seed": 17,
+      "selected_update": 160,
+      "training_seconds": 18.71561810000003,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.92192552457771,
+          "disturbance_pct": 48.352922443905264,
+          "seconds": 9.268766000000142,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.904932568121474,
+          "disturbance_pct": 186.7581702022893,
+          "seconds": 10.275371599999744,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.841812988885376,
+          "disturbance_pct": 44.31541546018135,
+          "seconds": 2.6133513999998286,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "modes_and_sampling",
+      "seed": 17,
+      "selected_update": 160,
+      "training_seconds": 4.527636799999982,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 5.237248418142514,
+          "disturbance_pct": 50.97780561803999,
+          "seconds": 2.1174047000004066,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 4.416164609151757,
+          "disturbance_pct": 227.92871461906157,
+          "seconds": 2.1080817000001844,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.979886139310837,
+          "disturbance_pct": 46.636686224420636,
+          "seconds": 2.193520499999977,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "original",
+      "seed": 17,
+      "selected_update": 160,
+      "training_seconds": 4.984806500000104,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 3.93963794826239,
+          "disturbance_pct": 15.393324907151081,
+          "seconds": 2.1392408000001524,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.027572346121842,
+          "disturbance_pct": 51.84708059458035,
+          "seconds": 2.3614166000002115,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.724952938833171,
+          "disturbance_pct": 15.809483454860642,
+          "seconds": 2.252431500000057,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "modes_only",
+      "seed": 17,
+      "selected_update": 160,
+      "training_seconds": 4.542324699999881,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.022648223111441,
+          "disturbance_pct": 15.698851481224088,
+          "seconds": 2.0538667999999234,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.028431268182635,
+          "disturbance_pct": 51.902619808687795,
+          "seconds": 2.077292099999795,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.8095276468486383,
+          "disturbance_pct": 15.98108814819003,
+          "seconds": 2.105716100000336,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "modes_and_sampling",
+      "seed": 17,
+      "selected_update": 160,
+      "training_seconds": 4.700448399999914,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 3.5220153089037236,
+          "disturbance_pct": 13.23337572345144,
+          "seconds": 3.6346920999999384,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 2.982394932298829,
+          "disturbance_pct": 52.599557357898156,
+          "seconds": 6.002415299999939,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.290195170719045,
+          "disturbance_pct": 14.013160540963009,
+          "seconds": 5.33813519999967,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "modes_only",
+      "seed": 29,
+      "selected_update": 160,
+      "training_seconds": 11.635975099999996,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 5.274291162695379,
+          "disturbance_pct": 50.57787840971205,
+          "seconds": 5.995419599999877,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 4.561942691221459,
+          "disturbance_pct": 217.10326384677558,
+          "seconds": 5.257645899999716,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.6558695040565143,
+          "disturbance_pct": 39.1102543341758,
+          "seconds": 7.0992991999996775,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "modes_and_sampling",
+      "seed": 29,
+      "selected_update": 160,
+      "training_seconds": 6.205066199999692,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 6.36708383905279,
+          "disturbance_pct": 58.43142071221513,
+          "seconds": 2.1169997000001786,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 5.426522333580622,
+          "disturbance_pct": 261.63868809295536,
+          "seconds": 2.0985405000001265,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 4.353713584926073,
+          "disturbance_pct": 40.7768704795429,
+          "seconds": 2.127327200000309,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "original",
+      "seed": 29,
+      "selected_update": 160,
+      "training_seconds": 5.034368899999663,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 5.270469573536919,
+          "disturbance_pct": 50.55402708674209,
+          "seconds": 2.05765029999975,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 4.560798498287588,
+          "disturbance_pct": 217.02239504850573,
+          "seconds": 2.075210900000002,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.6559190308368428,
+          "disturbance_pct": 39.116737670062314,
+          "seconds": 2.202078799999981,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "modes_only",
+      "seed": 29,
+      "selected_update": 80,
+      "training_seconds": 4.6841998999998395,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.374843063447497,
+          "disturbance_pct": 17.258379706527688,
+          "seconds": 2.1952650999996877,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.356117278819772,
+          "disturbance_pct": 58.673989387999285,
+          "seconds": 2.179923900000176,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.8900874383943997,
+          "disturbance_pct": 16.722839679615223,
+          "seconds": 2.1883340999997927,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "modes_and_sampling",
+      "seed": 29,
+      "selected_update": 160,
+      "training_seconds": 4.736711999999898,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 3.390391798385243,
+          "disturbance_pct": 12.89253210621051,
+          "seconds": 2.2771730999998,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.264398481592838,
+          "disturbance_pct": 54.47015953294997,
+          "seconds": 2.3214140000000043,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.2206924237283077,
+          "disturbance_pct": 13.360486639015202,
+          "seconds": 2.187662199999977,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "original",
+      "seed": 29,
+      "selected_update": 80,
+      "training_seconds": 4.6530666999997266,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.337820938860767,
+          "disturbance_pct": 16.994254571656892,
+          "seconds": 2.172885999999835,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.3305284915473528,
+          "disturbance_pct": 57.87756183943639,
+          "seconds": 2.1984402000002774,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.8352343329945686,
+          "disturbance_pct": 16.358778727281354,
+          "seconds": 2.1284419999997226,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "modes_and_sampling",
+      "seed": 43,
+      "selected_update": 160,
+      "training_seconds": 4.857332200000201,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 6.42684298643982,
+          "disturbance_pct": 59.34105970493548,
+          "seconds": 2.29481560000022,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 5.341791588279758,
+          "disturbance_pct": 243.74091496552282,
+          "seconds": 2.314775600000303,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 4.417153669905047,
+          "disturbance_pct": 43.82152684817432,
+          "seconds": 2.3193856000002597,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "original",
+      "seed": 43,
+      "selected_update": 160,
+      "training_seconds": 4.940012899999601,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 5.242955740687504,
+          "disturbance_pct": 50.10687900354091,
+          "seconds": 2.2618062999999893,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 4.476774955765468,
+          "disturbance_pct": 205.149118075169,
+          "seconds": 3.263063900000361,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.813354642409477,
+          "disturbance_pct": 41.20787702920004,
+          "seconds": 2.178473599999961,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "modes_only",
+      "seed": 43,
+      "selected_update": 160,
+      "training_seconds": 4.857286099999783,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 5.24878925725809,
+          "disturbance_pct": 50.15318197386392,
+          "seconds": 2.247999200000322,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 4.4775032998882045,
+          "disturbance_pct": 205.1505464885806,
+          "seconds": 2.2033774999999878,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.813170586173579,
+          "disturbance_pct": 41.19884722424285,
+          "seconds": 2.198975000000246,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "modes_and_sampling",
+      "seed": 43,
+      "selected_update": 160,
+      "training_seconds": 5.083949699999721,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 3.6359202728825895,
+          "disturbance_pct": 14.45203413651952,
+          "seconds": 2.3248195999999552,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.190476741674195,
+          "disturbance_pct": 55.003652314038014,
+          "seconds": 2.330929400000059,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.4995192088743554,
+          "disturbance_pct": 15.060723521118765,
+          "seconds": 2.5409985999999662,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "original",
+      "seed": 43,
+      "selected_update": 160,
+      "training_seconds": 5.2438114999999925,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.415283426756926,
+          "disturbance_pct": 17.571896559254615,
+          "seconds": 2.3588270999998713,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.4551255277919526,
+          "disturbance_pct": 64.30318543669866,
+          "seconds": 2.419714699999986,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 4.400958822126154,
+          "disturbance_pct": 19.436718606465288,
+          "seconds": 2.3845377000002372,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "modes_only",
+      "seed": 43,
+      "selected_update": 160,
+      "training_seconds": 9.80291249999982,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.4143997616620965,
+          "disturbance_pct": 17.482712991461558,
+          "seconds": 10.885767900000246,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.426507071830617,
+          "disturbance_pct": 64.17235268522326,
+          "seconds": 11.518847999999707,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 4.4039937828691125,
+          "disturbance_pct": 19.535897220027454,
+          "seconds": 7.734441800000241,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "sampling_only",
+      "seed": 17,
+      "selected_update": 160,
+      "training_seconds": 8.67223520000016,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 5.186667374933131,
+          "disturbance_pct": 50.2469629557821,
+          "seconds": 2.2879384999996546,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 4.349119145421739,
+          "disturbance_pct": 224.57096135762086,
+          "seconds": 2.237594199999876,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.7128673944682724,
+          "disturbance_pct": 44.164771874497376,
+          "seconds": 2.5449444000000767,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "sampling_only",
+      "seed": 17,
+      "selected_update": 160,
+      "training_seconds": 4.851210400000127,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 3.8046131403094656,
+          "disturbance_pct": 14.355598527155463,
+          "seconds": 2.085384900000008,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 2.9971914666104325,
+          "disturbance_pct": 51.861825877188956,
+          "seconds": 2.1340893000001415,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.331623590562083,
+          "disturbance_pct": 14.083374109739678,
+          "seconds": 2.1510957000000417,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "sampling_only",
+      "seed": 29,
+      "selected_update": 160,
+      "training_seconds": 4.579891500000031,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 6.323570395877635,
+          "disturbance_pct": 57.9696207524845,
+          "seconds": 2.214561899999808,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 5.394042603067113,
+          "disturbance_pct": 258.6684711821053,
+          "seconds": 2.190545899999961,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 4.356012678425116,
+          "disturbance_pct": 40.73563996720208,
+          "seconds": 2.2132775999998557,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "sampling_only",
+      "seed": 29,
+      "selected_update": 160,
+      "training_seconds": 4.820454899999731,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 3.453189187146707,
+          "disturbance_pct": 13.180825463634696,
+          "seconds": 2.2202431999999135,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.0840367113535065,
+          "disturbance_pct": 51.599818823580335,
+          "seconds": 2.2344009000003098,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.300279932836888,
+          "disturbance_pct": 13.817705563419445,
+          "seconds": 5.666502099999889,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "sampling_only",
+      "seed": 43,
+      "selected_update": 160,
+      "training_seconds": 19.96427130000029,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 6.420036045379976,
+          "disturbance_pct": 59.238231153480434,
+          "seconds": 5.719008000000031,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 5.342693188746353,
+          "disturbance_pct": 241.45374589215257,
+          "seconds": 6.073686100000032,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 4.412735015493335,
+          "disturbance_pct": 43.75157443480785,
+          "seconds": 6.905723200000011,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "sampling_only",
+      "seed": 43,
+      "selected_update": 160,
+      "training_seconds": 4.81798740000022,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 3.788292931896599,
+          "disturbance_pct": 14.46498157868305,
+          "seconds": 2.1579004999998688,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.268334142655192,
+          "disturbance_pct": 56.534054653091374,
+          "seconds": 6.5320590999999695,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.6143121585476123,
+          "disturbance_pct": 15.58673584474577,
+          "seconds": 11.732934900000146,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "sampling_only",
+      "seed": 61,
+      "selected_update": 160,
+      "training_seconds": 18.613522000000103,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 5.704389043547091,
+          "disturbance_pct": 53.58406639165833,
+          "seconds": 6.132915899999716,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 4.735068183839688,
+          "disturbance_pct": 239.3026859645532,
+          "seconds": 5.875697799999671,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.9877540940991962,
+          "disturbance_pct": 43.16345634500894,
+          "seconds": 5.4912836999997126,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "original",
+      "seed": 61,
+      "selected_update": 160,
+      "training_seconds": 11.255048400000305,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 5.636198178892809,
+          "disturbance_pct": 54.09299755660905,
+          "seconds": 5.749515500000143,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 4.629623706746888,
+          "disturbance_pct": 235.45711470998904,
+          "seconds": 5.8877246999995805,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.881217698576186,
+          "disturbance_pct": 43.97572484727542,
+          "seconds": 5.690863600000284,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "modes_only",
+      "seed": 61,
+      "selected_update": 160,
+      "training_seconds": 11.613618700000188,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 5.6350201277357925,
+          "disturbance_pct": 54.08423633814027,
+          "seconds": 5.607945499999914,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 4.629295414751778,
+          "disturbance_pct": 235.45031109921763,
+          "seconds": 5.646690299999591,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.881200552120438,
+          "disturbance_pct": 43.977214919535015,
+          "seconds": 5.518073899999763,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "modes_and_sampling",
+      "seed": 61,
+      "selected_update": 160,
+      "training_seconds": 11.185489800000141,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 5.615253878438691,
+          "disturbance_pct": 52.88422084901185,
+          "seconds": 5.542343300000084,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 4.706159402407191,
+          "disturbance_pct": 237.69575983349839,
+          "seconds": 5.4598808000000645,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.9781749077263573,
+          "disturbance_pct": 43.15901654647917,
+          "seconds": 5.51752149999993,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "sampling_only",
+      "seed": 61,
+      "selected_update": 160,
+      "training_seconds": 11.329739899999822,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 3.4960500831664927,
+          "disturbance_pct": 12.882171111469324,
+          "seconds": 5.626928600000156,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.02893953163136,
+          "disturbance_pct": 52.56211631284385,
+          "seconds": 5.709086599999864,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.1916728038249063,
+          "disturbance_pct": 13.375360906358823,
+          "seconds": 5.644512700000178,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "original",
+      "seed": 61,
+      "selected_update": 80,
+      "training_seconds": 11.709017499999845,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.178315819926985,
+          "disturbance_pct": 15.94834337738798,
+          "seconds": 5.737286600000061,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.1809043445845195,
+          "disturbance_pct": 52.99265734606066,
+          "seconds": 5.811495799999648,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.7435982758918662,
+          "disturbance_pct": 16.20446918351109,
+          "seconds": 5.722107799999776,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "modes_only",
+      "seed": 61,
+      "selected_update": 80,
+      "training_seconds": 11.885080600000038,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.207539099442987,
+          "disturbance_pct": 16.175929098509446,
+          "seconds": 5.960239100000308,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.1333766507025165,
+          "disturbance_pct": 53.7956801133956,
+          "seconds": 5.7940552000000025,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.9879487985655917,
+          "disturbance_pct": 16.385455029110073,
+          "seconds": 5.682029199999761,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "modes_and_sampling",
+      "seed": 61,
+      "selected_update": 160,
+      "training_seconds": 11.575957100000323,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 3.384215530835263,
+          "disturbance_pct": 12.656059754383698,
+          "seconds": 5.619429500000024,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.069729923554938,
+          "disturbance_pct": 52.612275849240625,
+          "seconds": 5.683280300000206,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.1507318332369643,
+          "disturbance_pct": 13.246677583974666,
+          "seconds": 5.727602599999955,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "original",
+      "seed": 83,
+      "selected_update": 160,
+      "training_seconds": 11.618286299999909,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.285528686307139,
+          "disturbance_pct": 38.356346903481544,
+          "seconds": 5.608876300000247,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.867939970360832,
+          "disturbance_pct": 211.88953182689616,
+          "seconds": 5.710112800000388,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.6791367139128255,
+          "disturbance_pct": 40.18043884287411,
+          "seconds": 5.694498399999702,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "modes_only",
+      "seed": 83,
+      "selected_update": 160,
+      "training_seconds": 11.796572100000049,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.283623714283489,
+          "disturbance_pct": 38.32437544339622,
+          "seconds": 5.691025499999796,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.8657710724297485,
+          "disturbance_pct": 211.70927419859603,
+          "seconds": 5.66370840000036,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.677620077121645,
+          "disturbance_pct": 40.15931212729884,
+          "seconds": 5.827076300000044,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "modes_and_sampling",
+      "seed": 83,
+      "selected_update": 160,
+      "training_seconds": 11.355493000000024,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.679189477694089,
+          "disturbance_pct": 42.96518054861546,
+          "seconds": 5.746488499999941,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 4.176748934482924,
+          "disturbance_pct": 238.40377526832629,
+          "seconds": 5.66271930000039,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.698202998027865,
+          "disturbance_pct": 41.530784047776486,
+          "seconds": 5.735821300000225,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "pipe",
+      "training_data": "sampling_only",
+      "seed": 83,
+      "selected_update": 160,
+      "training_seconds": 11.36203039999964,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.695278825265775,
+          "disturbance_pct": 43.21111118812243,
+          "seconds": 5.415712800000165,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 4.190337737230977,
+          "disturbance_pct": 242.10896710138533,
+          "seconds": 5.502531200000249,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.610930150543522,
+          "disturbance_pct": 40.871731022827205,
+          "seconds": 5.537655099999938,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "original",
+      "seed": 83,
+      "selected_update": 160,
+      "training_seconds": 11.271620499999699,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.0706485877719905,
+          "disturbance_pct": 15.932771406499635,
+          "seconds": 5.627147100000002,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.0577685793150846,
+          "disturbance_pct": 52.36843523906551,
+          "seconds": 5.574178200000006,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.6980958635291947,
+          "disturbance_pct": 15.948425291518362,
+          "seconds": 5.674009800000022,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "modes_only",
+      "seed": 83,
+      "selected_update": 160,
+      "training_seconds": 11.533677500000067,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 4.0267279501954665,
+          "disturbance_pct": 15.594086594929559,
+          "seconds": 5.681555500000286,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.0573713018661777,
+          "disturbance_pct": 53.6014795486478,
+          "seconds": 5.583296700000119,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.725725190372072,
+          "disturbance_pct": 16.298666174241774,
+          "seconds": 5.463033700000324,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "modes_and_sampling",
+      "seed": 83,
+      "selected_update": 160,
+      "training_seconds": 11.565111299999899,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 3.3242555761960744,
+          "disturbance_pct": 12.582585000692676,
+          "seconds": 5.652007600000161,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.02015435649391,
+          "disturbance_pct": 47.28826717488855,
+          "seconds": 5.7431602999999996,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.181579174154324,
+          "disturbance_pct": 13.630987509143088,
+          "seconds": 5.638147000000117,
+          "forwards": 120
+        }
+      }
+    },
+    {
+      "geometry": "channel",
+      "training_data": "sampling_only",
+      "seed": 83,
+      "selected_update": 160,
+      "training_seconds": 11.432087700000011,
+      "scores": {
+        "original_eight": {
+          "velocity_pct": 3.298813586963315,
+          "disturbance_pct": 12.561926413610786,
+          "seconds": 5.576026799999909,
+          "forwards": 120
+        },
+        "four": {
+          "velocity_pct": 3.0062351408258485,
+          "disturbance_pct": 47.401214558000014,
+          "seconds": 5.685930199999802,
+          "forwards": 120
+        },
+        "fresh_eight": {
+          "velocity_pct": 3.1594438641292215,
+          "disturbance_pct": 13.552400409257956,
+          "seconds": 5.6290234999996756,
+          "forwards": 120
+        }
+      }
+    }
+  ]
+}

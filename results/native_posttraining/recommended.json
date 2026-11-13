@@ -1,0 +1,16 @@
+{
+  "pipe": {
+    "seed": 17,
+    "representation": "increment_rel_long",
+    "validation_pct": 0.4920978235390336,
+    "decoder": "pipe_17_increment_rel_long.pt",
+    "decoder_sha256": "11f23e1b03c4f07e10709d1f3085e188ccde69c606597ddd31e3d0dc8b1495c2"
+  },
+  "channel": {
+    "seed": 17,
+    "representation": "increment_rel_long",
+    "validation_pct": 0.44534389872259494,
+    "decoder": "channel_17_increment_rel_long.pt",
+    "decoder_sha256": "2e2a2dcf57df82de7e21ced3dbb9d421542f6749ad457df6dd7445d6e415a345"
+  }
+}

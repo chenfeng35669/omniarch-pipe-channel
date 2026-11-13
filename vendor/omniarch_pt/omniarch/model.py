@@ -14,16 +14,9 @@ family of problems. Time steps are marked by rotary position encoding.
 """
 from dataclasses import asdict, dataclass, field
 
-import os
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
-from . import fused_mlp
-
-# OMNIARCH_FUSED=1 uses the fused Triton kernel for the decoder MLP on CUDA (falls back to PyTorch elsewhere)
-USE_FUSED = os.environ.get("OMNIARCH_FUSED", "0") == "1"
 
 MAX_CHANNELS = 8
 
@@ -190,7 +183,6 @@ class FourierDecoder(nn.Module):
             pad = dict(padding=kernel // 2, padding_mode="circular")
             self.mlp = nn.Sequential(conv(width + 1, mlp, kernel, **pad), nn.GELU(), conv(mlp, mlp, kernel, **pad),
                                      nn.GELU(), conv(mlp, 1, 1))
-        self.fused = None                                   # None: follow OMNIARCH_FUSED; True/False: override
 
     def forward(self, h, skip):                             # h: (N, hidden), skip: (N, *S)
         S = skip.shape[1:]
@@ -203,9 +195,6 @@ class FourierDecoder(nn.Module):
             dt = self.mlp[0].weight.dtype if not torch.is_autocast_enabled() else torch.get_autocast_dtype(h.device.type)
             z = torch.cat([field_.to(dt), skip.unsqueeze(1).to(dt)], 1)
             return self.mlp(z).squeeze(1)
-        if (self.fused if self.fused is not None else USE_FUSED) and fused_mlp.available(h.device, self.mlp):
-            bf16 = torch.is_autocast_enabled() and torch.get_autocast_dtype(h.device.type) == torch.bfloat16
-            return fused_mlp.fused_point_mlp(field_, skip, self.mlp, bf16)
         # first MLP layer split into field and skip parts: no concatenated copy of the grid
         l1 = self.mlp[0]
         dt = l1.weight.dtype if not torch.is_autocast_enabled() else torch.get_autocast_dtype(h.device.type)
